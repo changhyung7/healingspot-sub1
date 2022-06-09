@@ -3,175 +3,41 @@ ul{list-style: none;}
 a{text-decoration: none; color:#000;}
 body{font-family: '나눔스퀘어';}
 
-.headerwidth{background: url(../images/banner1.png)no-repeat top center;
-width: 1920px; height: 1400px;
-margin-bottom: 200px;}
-#header{width:1320px; margin:0 auto; height:147px;
+.main{width: 100%; height: 5197px;
+        background: url(../images/sub1\ bg.jpg)no-repeat top center;
+text-align: center; margin: 0 auto;}
 
-}
-.logo{float:left; padding:20px 0;}
-.nav{float:right;}
-.nav li{float:left;}
-.nav li a{display:block;
-        padding:60px 80px 0px 70px;
-        font-weight: bold; font-size: 24px; color: white;
-}
-.nav li a:hover {color:brown;}
+        #header{width:1320px; margin:0 auto; height:147px;
 
-.bannerwidth{width: 1920px; height: 1350px; margin: 0 auto; text-align: center;
-/* position: relative; 
-overflow: hidden; */
-margin-bottom: 200px; }
+        }
+        .logo{float:left; padding:20px 0;}
+        .nav{float:right;}
+        .nav li{float:left;}
+        .nav li a{display:block;
+                padding:60px 80px 0px 70px;
+                font-weight: bold; font-size: 24px; color: white;
+        }
+        .nav li a:hover {color:brown;}
+        .img1{margin-top: 200px;}
 
+        .text{color: white; font-size: 18px; margin-top: 60px;
+        margin-bottom: 200px;}
+        .text h1{font-size: 50px; font-weight: bold; padding-bottom: 50px;}
+        .c1{font-size: 22px; font-weight: bold;}
+.bg2{position: relative; margin-top: 200px; margin-left: 380px;}
+.bg2pa{position: absolute; top: -100px; left: -100px; }
 
+.bg3{position: relative; margin-top: 200px; margin-right: 300px;}
+.bg3pa{position: absolute; bottom: -100px; right: -100px; }
 
-/* .box1{width: 1066px; height: 675px;
-background-color: rgba(0,0,0,0.7);
-position: absolute;left: 1920px; top: 150px;
-transition: all 3s;}
-
-.bannerwidth:hover .box1{transform: translateX(-1066px);}
-.bannerwidth:hover .box2 h1{transform: translateX(-1000px);
-opacity: 1;}
-.bannerwidth:hover .box2 p{transform: translateX(-1000px);}
-
-
-.box2{text-align: left;}
-
-.box2 h1{font-size: 87px; color: white;
-margin-bottom: 30px;
-transition:all 5s; width: 578px;
-position: absolute; top: 300px; left: 1960px;
-opacity: 1;}
-
-.box2 p{font-size: 40px; color: white;
-transition: all 7s; width: 578px;
-position: absolute; top: 550px; left: 1960px;
-} */
-
-.mainwidth{width: 1320px; margin: 0 auto;
-height: 650px; margin-bottom: 200px;}
-
-.mainimg{float: left;}
-.mainright{float: right;}
-.mainright h4{font-size: 30px;
-padding-bottom: 30px;}
-.mainright p{font-size: 14px;
-padding-bottom: 20px;
-margin-right: 100px;}
-
-.mid{width: 1320px; margin: 0 auto;
-clear: both; text-align: center;
-height: 624px;
-margin-bottom: 200px;}
-
-
-.mid h1{font-size: 64px; font-weight: bold;
-font-family: 'HY크리스탈M';
-margin-bottom: 100px;}
-.midimg li{float: left; margin-right: 9px;
-position: relative; width: 323px; height: 450px;
-overflow: hidden;}
-
-
-.sub{ opacity: 0;
-        width: 323px; height: 450px; text-align: center;
-        box-sizing: border-box; padding-top: 150px;
-        position: absolute; left: 0; top: 0;
-        transition: all 3s;}
-
-        
-        .midimg li a:hover .sub{
-                transform: scale(1.2,1.2);
-                opacity: 1;
-        background-color: rgba(0,0,0,0.5);}
-        
-
-
-
-.midimg li a{display: block;}
-
-.midimg li:nth-child(4){margin-right: 0;}
-
-
-
-
-.center1{width: 100%; text-align: center;
-        margin: 0 auto;}
-        
-        
-        .cenbg{width: 1320px; margin: 0 auto; margin-top: 200px;
-                clear: both;}
-                .cenbg ul li{float: left; padding-right: 30px; box-sizing: border-box;
-                        margin-bottom: 100px; position: relative;}
-                        .cenbg ul li a{display: block;}
-                        
-                        
-                        
-                        
-                        
-        
-                        
-        .sub2bg{width: 630px; height: 108px;
-                background-color: #373737;
-                opacity: 0;
-        position: absolute; bottom : -105px; left: 0;
-        transition: all 3s;}
-
-
-        .cenbg ul li a:hover .sub2bg{
-                transform: translateY(-108px);
-                opacity: 0.7;
-                background-color: rgba(0,0,0,0.7);}
-                
-         .cenbg ul li a:hover .sub2 h2{
-                                transform: translateY(250px);
-                                opacity: 1;}
-                
-         .cenbg ul li a:hover .sub3 h2{
-                                transform: translateY(250px);
-                                opacity: 1;}
-        .cenbg ul li a:hover .sub2 p{
-                                transform: translateY(-90px);
-                                opacity: 1;}
-
-        .cenbg ul li a:hover .sub3 p{
-                                transform: translateY(-90px);
-                                opacity: 1;}
-                    
-                
-         .sub2 h2{font-size: 78px; color: white;
-                 position: absolute; top: 0; left: 160px;
-                        transition: all 2s; opacity: 0;}
-         .sub3 h2{font-size: 78px; color: white;
-                    position: absolute; top: 0; left: 200px;
-                  transition: all 2s; opacity: 0;}
-
-         .sub2 p{font-size: 18px; color: white;
-                  position: absolute; bottom: -72px; left: 30px;
-                  transition: all 5s; opacity: 0;
-                line-height: 24px;}
-                                        
-        .sub3 p{font-size: 18px; color: white;
-                 position: absolute; bottom: -72px; left: 30px;
-                transition: all 5s; opacity: 0;
-                line-height: 24px;}       
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-.event{width: 1320px; margin: 0 auto;
-        margin-top: 100px; text-align: center;}
-        .event h1{margin-bottom: 150px;}
-        
-        .footer{width: 100%; height: 255px; background-color: #373737;
-                margin-top: 150px;}
-                .footertext{width: 1320px; margin: 0 auto;
-                        text-align: center; padding-top: 30px; position: relative;}
-                        .footertext h3{color: white; font-size: 30px;}
+.map{margin-top: 200px;}
+.map h1{color: white; padding-bottom: 60px;}
+   
+.footer{width: 100%; height: 255px; background-color: #373737;
+        margin-top: 0;}
+        .footertext{width: 1320px; margin: 0 auto;
+                text-align: center; padding-top: 30px; position: relative;}
+                .footertext h3{color: white; font-size: 30px;}
 .fologo{float: left;}
 .fotright{float: right;}
 .fotright ul li{float: left;}
