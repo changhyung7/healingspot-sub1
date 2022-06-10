@@ -3,7 +3,9 @@ ul{list-style: none;}
 a{text-decoration: none; color:#000;}
 body{font-family: '나눔스퀘어';}
 
-.main{width: 1920px; height: 5197px;
+.main{
+        /* width: 1920px;  */
+        height: 5197px;
         background: url(../images/sub1\ bg.jpg)no-repeat top center;
 text-align: center; margin: 0 auto;}
 
@@ -20,7 +22,8 @@ text-align: center; margin: 0 auto;}
         .nav li a:hover {color:brown;}
         .img1{margin-top: 200px;}
 .centerlogo{background: url(../images/sub1logo.png) top center no-repeat;
-width: 1920px; margin: 0 auto; height: 264px; margin-top: 200px;}
+/* width: 1920px;  */
+margin: 0 auto; height: 264px; margin-top: 200px;}
 
         .text{color: white; font-size: 18px; margin-top: 60px;
         margin-bottom: 200px;}
@@ -29,7 +32,9 @@ width: 1920px; margin: 0 auto; height: 264px; margin-top: 200px;}
 
         .c1{font-size: 22px; font-weight: bold;}
         
-        .center{width: 1920px; margin: 0 auto;}
+        .center{
+                /* width: 1920px;  */
+                margin: 0 auto;}
 .bg2{position: relative; margin-top: 200px; margin-left: 380px;}
 
 
